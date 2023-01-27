@@ -1,0 +1,23 @@
+{
+  "name": "pusher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pusher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhadjx/pusher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhadjx/pusher/issues"
+  },
+  "homepage": "https://github.com/elhadjx/pusher#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security"
+  }
+}
