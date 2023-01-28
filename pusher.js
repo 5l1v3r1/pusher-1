@@ -14,7 +14,6 @@ function addLineAndCommit() {
     execSync("git push origin main");
 }
 
-// Call the function every 2 hours
-setInterval(addLineAndCommit, 3000);
-
-setInterval(addLineAndCommit, 2 * 60 * 60 * 1000);
+// Call the function every 1-3 hours
+let randomNum = Math.floor(Math.random() * 3) + 1;
+setInterval(addLineAndCommit, randomNum * 60 * 60 * 1000);
