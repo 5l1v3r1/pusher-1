@@ -16,5 +16,5 @@ function addLineAndCommit() {
 
 // Call the function every 1-3 hours
 let randomNum = Math.floor(Math.random() * 3) + 1;
-//setInterval(addLineAndCommit, randomNum * 60 * 60 * 1000);
-setInterval(addLineAndCommit, 5000)
+setInterval(addLineAndCommit, randomNum * 60 * 60 * 1000);
+//setInterval(addLineAndCommit, 5000)
