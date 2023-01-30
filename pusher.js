@@ -11,7 +11,7 @@ function addLineAndCommit() {
     // Commit and push the file to GitHub
     execSync("git add .");
     execSync(`git commit -m 'Rewrote test.txt ${i}'`);
-    execSync("git push origin main");
+    execSync("git push --force");
 }
 
 // Call the function every 1-10 minutes
