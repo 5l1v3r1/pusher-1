@@ -16,5 +16,5 @@ function addLineAndCommit() {
 
 // Call the function every 1-10 minutes
 const minutes = Math.floor(Math.random() * 11)
-setInterval(addLineAndCommit, minutes * 60 * 1000);
+setInterval(addLineAndCommit, 5 * 1000);
 //setInterval(addLineAndCommit, 5000)
