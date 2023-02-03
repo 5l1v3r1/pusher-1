@@ -10,7 +10,7 @@ function addLineAndCommit() {
 
     // Commit and push the file to GitHub
     execSync("git add .");
-    execSync(`git commit -m 'Rewrote test.txt ${i}'`);
+    execSync(`git commit -m 'Rewrot${i}'`);
     execSync("git push ");
 }
 
